@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin: 22px;
+  padding: 5px;
+}
+
+.checkBoxes {
+  margin-top: 140px;
+  margin-left: 30px;
+}
+
+.inputField{
+  position: relative;
+  margin-left: 31px;
+  width: 55%;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #dde0ee;
+}
+.inputField::placeholder{
+  position: absolute;
+  left: 10px;
+  padding: 15px; 
+}
+.btn{
+  width: 30%;
+  height: 50px;
+  margin:10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #B354B7;
+  color: #FFFFFF;
+}
+.btn:hover{
+  background-color: #FFFFFF;
+  color:#B354B7;
+  font-weight: bold;
+  border: solid;
+}
+.cards{
+  height: 720px;
+  overflow-y: scroll;
+}
+.cardActive{
+  box-shadow: 'none';
+  background-color: #96E2F4 !important;
+}
+.cardInActive{
+  background-color: #FFFFFF !important;
+}
